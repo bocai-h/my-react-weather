@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
     "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
@@ -14,5 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://www.weather.com.cn/"
+  "proxy": "http://www.weather.com.cn/",
+  "devDependencies": {
+    "react-addons-perf": "^15.4.2",
+    "redux-immutable-state-invariant": "^2.0.0"
+  }
 }
