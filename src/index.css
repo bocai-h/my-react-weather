@@ -1,0 +1,16 @@
+.select-city{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+div.label:nth-child(1){
+  margin-right: 20px;
+}
+
+.weather-result{
+  display: flex;
+}
+
+.city-selector{
+  min-width: 100px; 
+}
